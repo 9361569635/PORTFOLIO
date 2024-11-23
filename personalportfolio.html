@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio-webpage</title>
+    <link rel="icon" type="images/x-icon" href="img.png">
+    <style>
+        body{
+            margin: 0px;
+        }
+        .main1{
+            width: 100%;
+            height: 10vh;
+            background-color: rgb(198, 168, 132);
+            top: 70%;
+            left: 150px;
+            font-size: large;
+        }
+        .main1 h1{
+            position: absolute;
+            color: azure;
+            top: 15px;
+            padding-left: 170px;
+            margin: 0px;
+        }
+        .main1 table{
+            position: absolute;
+            top: 6%;
+            right: 20px;
+            color: azure;
+            cursor: pointer;
+        }
+        .main1 td{
+            padding-left: 30px;
+        }
+        .main2 #img8{
+            left: 40px;
+            top: 440px;
+            position: absolute;
+            width: 40px;
+            padding-left: 50px;
+            height: 40px;
+            border-radius: 2px;
+            filter: brightness(110%);
+        }
+        .main2 #img9{
+            left: 116px;
+            top: 440px;
+            position: absolute;
+            width: 40px;
+            padding-left: 50px;
+            height: 40px;
+            border-radius: 3px;
+            filter: brightness(110%);
+        }
+        .main2 #img10{
+            left: 190px;
+            top: 440px;
+            border-radius: 3px;
+            position: absolute;
+            width: 40px;
+            padding-left: 50px;
+            height: 40px;
+            
+            filter: brightness(110%);
+        }
+        .main2{
+            width: 100%;
+            height: 250vh;
+            position: relative;
+        }
+        .main21{
+            position: absolute;
+            top: 120px;
+            left: 4%;
+            color: azure;
+            font-size: large;
+        }
+        .main22{
+            top: 120px;
+            left: 57%;
+            position: absolute;
+        }
+        .main22 #img2{
+            width: 100%;
+            height: 360px;
+            border-radius: 80px;
+        }
+        .img1{
+            width: 100%;
+            height: 100%;
+        }
+        .hide{
+            top: 120px;
+            left: 45%;
+            position: absolute;
+            color: azure;
+            font-size: x-large;
+            display: none;
+        }
+        .hide:hover{
+            color: rgb(220, 220, 33);
+        }
+        .hide #img3{
+            width: 100px;
+            height: 80px;
+        }
+        .hide #img4{
+            width: 100px;
+            height: 80px;
+            padding-left: 20px;
+        }
+        .hide #img5{
+            width: 100px;
+            height: 80px;
+            padding-left: 20px;
+        }
+        .hide #img6{
+            width: 100px;
+            height: 80px;
+            padding-left: 20px;
+        }
+        .hide #img7{
+            width: 100px;
+            height: 80px;
+            padding-left: 20px;
+        }
+        .hide h1{
+            text-align: center;
+        }
+         #r{
+            top: 500px;
+            position: absolute;
+            color: azure;
+          
+        }
+        #h{
+            top: 1360px;
+            position: absolute;
+            color: azure;
+        }
+        .main23{
+            position: absolute;
+            top: 350px;
+            left: 4%;
+            
+        }
+         .main2 #a{
+            
+            top: 800px;
+            position: absolute;
+            color: azure;
+        }
+        #g{
+            top: 1000px;
+            position: absolute;
+            color: azure;
+        }
+        #u{
+            top: 1550px;
+            position: absolute;
+            color: azure;
+        }
+        .main23 button{
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            color: azure;
+            background-color: rgb(71, 71, 199);
+            font-size: medium;
+        }
+        .main3{
+            width: 100%;
+            height: 5vh;
+            background-color: rgb(198, 168, 132);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <h1>Raghul T M</h1>
+        <table>
+            <tr>
+                <button onclick="home()" id="td1"><td><b>Home</b></td></button>
+               <button onclick="education ()" id="td2"><td><b>Education</b></td></button> 
+                <button onclick="certificate ()" id="td3"><td><b>Certification-Course</b></td></button>
+                <td><b>Skills</b></td>
+                <td><b>project</b></td>
+            </tr>
+        </table>
+    </div>
+    <div class="main2">
+        <img src="https://img.freepik.com/free-photo/green-blue-colored-paper-backdrop_23-2147981576.jpg?ga=GA1.1.1815580372.1727764993&semt=ais_hybrid" alt="" class="img1">
+        <div class="main21">
+            <h1 id="h1">Hey Everyone,</h1>
+            <h1 id="h2">This is <span style="color: blue;">Raghul</span></h1>
+            <h1 id="h3">Web Developer</h1>
+           
+        </div>
+        <div class="main22" id="main22">
+            <img src="C:\Users\raghu\OneDrive\Pictures\Camera Roll\IMG-20240507-WA0020.jpg" alt="" id="img2">
+        </div>
+        <div class="hide" id="hide">
+            <h1>Currently as MERN Intern</h1>
+            <img src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png" alt="" id="img3">
+            <img src="https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" alt="" id="img4">
+            <img src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" alt="" id="img5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s" alt="" id="img6">
+            <img src="https://e7.pngegg.com/pngimages/306/37/png-clipart-node-js-logo-node-js-javascript-web-application-express-js-computer-software-others-miscellaneous-text-thumbnail.png" alt="" id="img7">
+
+        </div>
+        <div class="main23" id="main23">
+            <button id="b1">know more</button>
+        </div>
+        <table>
+            <tr>
+                <td>
+                  <a href="https://www.linkedin.com/in/raghul-t-m-ab4a832a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                  target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" id="img8"></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.instagram.com/t.m.raghul?igsh=MXhvdGxxbDVjZWt5dQ==" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5YEZgxsKl3pXMktpMr3PN3-juHUeryORfdw&s" alt="" id="img9">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://github.com/9361569635" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" alt="" id="img10">
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <script>
+            document.getElementById("b1").onclick=function(){
+                document.getElementById("h1").innerHTML="junior developer";
+                document.getElementById("h2").innerHTML="intern at Marpu Foundation";
+                document.getElementById("h3").innerHTML="B.tech(IT)";
+                document.getElementById("main22").style.display="none";
+                document.getElementById("hide").style.display="block";
+                document.getElementById("img8").style.display="none";
+                document.getElementById("img9").style.display="none";
+                document.getElementById("img10").style.display="none";
+            }
+            
+        </script>
+        <div id="r">
+            <h1>RECENT ROLE:</h1>
+            <H3>Currently pursing III - B.Tech (IT)</H3>
+            <h1>OBJECTIVE:</h1>
+            <H3>The objectives of a job typically encompass achieving specific goals that align with organizational priorities, contributing to team success, and developing skills for personal and professional growth. Employees aim to improve efficiency by streamlining processes and boosting productivity, while also ensuring their work meets high standards of quality and accuracy. Customer or client satisfaction is a key objective, as fulfilling their needs and expectations directly impacts organizational success. Additionally, employees are responsible for adhering to company policies, safety protocols, and industry standards to ensure compliance. Innovation is often encouraged, with employees expected to bring forward new ideas or improvements that can enhance processes, products, or services, driving the organization forward.</H3>
+            <SCRIPT>
+                function home(){
+                    let h=get.getElementById("r")=function(){
+                        document.getElementById("td1").innerHTML=h;
+                document.getElementById("h1").style.display="none";
+                document.getElementById("h2").style.display="none";
+                document.getElementById("h3").style.display="none";
+                document.getElementById("main22").style.display="none";
+                document.getElementById("hide").style.display="none";
+                document.getElementById("img8").style.display="none";
+                document.getElementById("img9").style.display="none";
+                document.getElementById("img10").style.display="none"
+                    };
+                   
+                }
+            </SCRIPT>
+        </div>
+        <div id="a">
+            <h1>education:</h1>
+            <h3>Information technology (IT) refers to the use of computers, software, networks, and other digital systems to manage, store, retrieve, and transmit information. IT encompasses a broad range of technologies and practices, including data processing, cybersecurity, software development, and networking, which collectively support the digital infrastructure of businesses, governments, and organizations. IT professionals work to create, maintain, and secure these systems, ensuring smooth operations, data integrity, and accessibility. The field plays a critical role in enabling communication, driving innovation, automating tasks, and enhancing productivity across various industries, making it foundational in today's technology-driven world.</h3>
+            <SCRIPT>
+                function education(){
+                    let ha=get.getElementById("a")=function(){
+                        document.getElementById("td2").innerHTML=ha;
+                        document.getElementById("h1").style.display="none";
+                document.getElementById("h2").style.display="none";
+                document.getElementById("h3").style.display="none";
+                document.getElementById("main22").style.display="none";
+                document.getElementById("hide").style.display="none";
+                document.getElementById("img8").style.display="none";
+                document.getElementById("img9").style.display="none";
+                document.getElementById("img10").style.display="none"
+                    };
+                   
+                }
+            </SCRIPT>
+        </div>
+        <div id="g">
+            <h1>certificate-course:</h1>
+            <h3>technohack - web development intership</h3>
+            <h3>saiket systems - web development intership</h3>
+            <h3>novitech pvt.ltd - MERN stack intership</h3>
+            <h3>let's gametech - full stack intership</h3>
+            <h3>marpu Foundation - copywritring intership</h3>
+            <h3>marpu Foundation - Human Resource intership</h3>
+            <SCRIPT>
+                function education(){
+                    let har=get.getElementById("g")=function(){
+                        document.getElementById("td3").innerHTML=har;
+                        document.getElementById("h1").style.display="none";
+                document.getElementById("h2").style.display="none";
+                document.getElementById("h3").style.display="none";
+                document.getElementById("main22").style.display="none";
+                document.getElementById("hide").style.display="none";
+                document.getElementById("img8").style.display="none";
+                document.getElementById("img9").style.display="none";
+                document.getElementById("img10").style.display="none"
+                    };
+                   
+                }
+            </SCRIPT>
+        </div>
+        <div id="h">
+            <h1>skills:</h1>
+    <ul>
+        <li>Python</li>
+        <li>C & C++</li>
+        <li>Web Development</li>
+        <li>MERN stack</li>
+        <li>Power BI</li>
+    </ul>
+        </div>
+        <div id="u">
+            <h1>projects:</h1>
+            <ul>
+              <li>mobile detection using class hours - Mobile detection during class hours is a technology-driven solution used to monitor and control mobile phone usage in educational settings. This technology aims to minimize distractions by detecting the presence of mobile devices within a classroom or school premises. Schools can employ mobile detection through various methods, including device scanning, Wi-Fi network tracking, and Bluetooth signal detection. These systems may alert teachers or administrators if a student is using a phone during class, allowing them to take action as needed to maintain focus and engagement.
+                In addition to promoting a focused learning environment, mobile detection can help reinforce school policies around phone usage and support students in developing disciplined study habits. Privacy considerations are important in these systems, and many solutions focus on identifying only unauthorized usage rather than tracking specific device data.</li> 
+                <br><br>           
+              <li>smart contentbot - The Smart ContentBot is an AI-based assistant that simplifies content extraction, summarization, and organization from PDFs and online resources. With features like bookmarking, indexing, and export options, it supports efficient research and study. Built with Django, it uses tools like spaCy, Celery, and ReportLab for streamlined, intelligent content management.</li>
+        </ul>
+        </div>
+    </div>
+    
+    <div class="main3">
+        <h3><b>raghultm6@gmail.com</b></h3>
+    </div>
+</body>
+</html>
